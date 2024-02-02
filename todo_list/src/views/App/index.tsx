@@ -17,7 +17,7 @@ state.removeTask,
    ]);
 
 
-   
+  console.log(tasks) 
 
     return (
         <article className={styles.article} >
@@ -31,7 +31,13 @@ state.removeTask,
     }}
     />
 </section>
-<section className={styles.articleSection}></section>
+<section className={styles.articleSection}>
+    {!tasks.length && (
+        <p className={styles.articleText}>There is no one task.</p>
+    )
+
+    }
+</section>
         </article>
     );
 }
