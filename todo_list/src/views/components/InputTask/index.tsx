@@ -5,12 +5,12 @@ interface InputTaskProps {
     id: string;
     title: string;
     onDone: (id: string) => void;
-    onEtided: (id: string, value: string) => void;
+    onEtided: (id: string, title: string) => void;
     onRemoved: (id: string) => void;
 }
 
 
-export const InputPlus: React.FC<InputTaskProps> = ({
+export const InputTask: React.FC<InputTaskProps> = ({
     id,
     title,
     onDone,

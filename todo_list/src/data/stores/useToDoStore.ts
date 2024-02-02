@@ -21,6 +21,11 @@ export const useToDoStore = create<ToDoStore>((set, get) => ({
     title: 'hgghh',
     createdAt: 657568
 },
+{
+    id: 'sdkglkl',
+    title: 'jkholj;k',
+    createdAt: 657532
+},
  ],
     createTask: (title) => {
        const { tasks } = get();
