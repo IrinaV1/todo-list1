@@ -43,7 +43,7 @@ key={task.id}
 id={task.id}
 title={task.title}
 onDone={removeTask}
-onEtided={updateTask}
+onEdited={updateTask}
 onRemoved={removeTask}
 />
     ))}
